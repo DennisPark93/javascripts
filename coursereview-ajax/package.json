@@ -1,0 +1,27 @@
+{
+  "name": "coursereview-ajax",
+  "version": "1.0.0",
+  "description": "Simple course review using AJAX",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "mongoose": "^5.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennisPark93/javascripts.git"
+  },
+  "author": "Dennis Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DennisPark93/javascripts/issues"
+  },
+  "homepage": "https://github.com/DennisPark93/javascripts#readme"
+}
