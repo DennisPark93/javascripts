@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<h2><b>List of Articles</b></h3>
+<hr>
+  {{#if list}}
+    {{#each list}}
+    <ul>
+      <li><a href="{{this.url}}">{{this.title}}</a> -[<a href="article/{{this.slug}}">details</a>]</li>
+    </ul>
+    {{/each}}
+  {{/if}}
+<hr>
+</html>

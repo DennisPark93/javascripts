@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Too Long </title>
+	<link rel="stylesheet" href="/css/site.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<nav>
+		<ul>
+			<li><b><a href="/"> Home </a></b></li>
+			{{#if user}}
+			<li><b><a href="/article/add"> Add an Article </a></b></li>
+			<li> Logged in as: <a href="/{{user.username}}">{{user.username}}</a></li>
+			{{else}}
+			<li><b><a href="/login"> Log-In </a></b></li>
+			<li><b><a href="/register"> Register </a></b></li>
+			{{/if}}
+	  </ul>
+	</nav>
+</head>
+
+<body>
+	{{{body}}}
+</body>
+</html>
