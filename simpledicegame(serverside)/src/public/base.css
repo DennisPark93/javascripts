@@ -1,0 +1,89 @@
+h1{
+  text-align: center;
+
+}
+.display{
+  display:inline
+  text-align:center;
+  margin: auto;
+  width: 20%;
+}
+.none{
+  display: none;
+}
+
+#game{
+  margin: auto;
+  width: 20%;
+}
+.overlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+}
+
+.overlay p{
+    position: absolute;
+    top: 30%;
+    left: 46%;
+}
+
+.closeButton{
+  position: absolute;
+  top: 36%;
+  left: 50%;
+}
+.container{
+  display: block;
+}
+
+
+
+.dice{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  text-align: center;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.dice:hover{
+  background: green;
+}
+
+.clicked{
+  background: #A9A9A9;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  text-align: center;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.button{
+  display: inline;
+  width: 50px;
+  margin: 30px;
+}
+.cscore{
+  text-align: center;
+}
+.pscore{
+  color: green;
+  text-align: center;
+}
+
+.gameresult{
+  text-align: center;
+}

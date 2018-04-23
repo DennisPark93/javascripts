@@ -1,0 +1,23 @@
+{
+  "name": "simple_dice_game",
+  "version": "1.0.0",
+  "description": "Dice game where the goal is to get the lowest score (with each die face counting for that value, with the exception of threes, which count as 0). It's played with 5 dice. In our version there are two players, the user and the computer.",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennisPark93/javascripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DennisPark93/javascripts/issues"
+  },
+  "homepage": "https://github.com/DennisPark93/javascripts#readme"
+}
